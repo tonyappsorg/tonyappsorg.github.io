@@ -3,260 +3,39 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f5f5f0">
-    <meta name="description" content="Free, open-source Magento extensions for B2B buying, customer experience, and store operations. Built by Tonyapps for Magento Open Source.">
-    <meta property="og:title" content="Tonyapps — Magento extensions, made useful">
-    <meta property="og:description" content="Focused, free and open-source extensions for the everyday work of running a Magento store.">
-    <meta property="og:type" content="website">
-    <title>Tonyapps — Magento extensions, made useful</title>
-    <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
+    <meta name="theme-color" content="#f7f7f5">
+    <title>Tonyapps modules</title>
+    <link rel="icon" type="image/jpeg" href="assets/tonyapps-logo.jpg">
     <link rel="stylesheet" href="assets/site.css">
-    <script src="assets/site.js" defer></script>
 </head>
 <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-
-    <header class="site-header">
-        <div class="header-inner shell">
-            <a class="brand" href="#top" aria-label="Tonyapps home">
-                <span class="brand-mark" aria-hidden="true">t</span>
-                <span class="brand-name">tonyapps<span class="brand-period">.</span></span>
+    <main class="page">
+        <header class="heading">
+            <a class="brand" href="https://github.com/tonyappsorg" aria-label="Tonyapps on GitHub">
+                <img src="assets/tonyapps-logo.jpg" alt="Tonyapps logo" width="56" height="56">
             </a>
-            <nav class="main-nav" aria-label="Main navigation">
-                <a href="#extensions">Extensions</a>
-                <a href="#approach">Our approach</a>
-                <a href="#get-started">Get started</a>
-            </nav>
-            <a class="header-link" href="https://github.com/tonyappsorg" target="_blank" rel="noreferrer">
-                GitHub <span aria-hidden="true">↗</span>
-            </a>
-        </div>
-    </header>
+            <h1>Magento modules</h1>
+            <a class="github" href="https://github.com/tonyappsorg">GitHub <span aria-hidden="true">↗</span></a>
+        </header>
 
-    <main id="main">
-        <section class="hero" id="top">
-            <div class="hero-grid shell">
-                <div class="hero-copy">
-                    <p class="eyebrow"><span class="eyebrow-dot"></span> Independent Magento extensions</p>
-                    <h1>Make more room<br>for <em>good commerce.</em></h1>
-                    <p class="hero-intro">Focused tools for the work Magento Open Source leaves to you: company buying, better follow-up, clearer reporting, and smoother store operations.</p>
-                    <div class="hero-actions">
-                        <a class="button button-bright" href="#extensions">Explore the extensions <span aria-hidden="true">↓</span></a>
-                        <a class="text-link text-link-light" href="https://github.com/tonyappsorg" target="_blank" rel="noreferrer">Browse the source <span aria-hidden="true">↗</span></a>
-                    </div>
-                    <div class="hero-proof" aria-label="Project facts">
-                        <span><strong>16</strong> focused modules</span>
-                        <span><strong>Free</strong> under GPL-3.0-or-later</span>
-                    </div>
-                </div>
-
-                <div class="hero-visual" aria-label="Illustration showing focused extensions around a Magento store" role="img">
-                    <div class="visual-topline"><span>TONYAPPS / TOOLKIT</span><span class="live-dot">OPEN SOURCE</span></div>
-                    <div class="orbit orbit-one"></div>
-                    <div class="orbit orbit-two"></div>
-                    <div class="store-core">
-                        <span class="core-mark" aria-hidden="true">t</span>
-                        <span class="core-label">YOUR STORE</span>
-                        <strong>Magento<br>Open Source</strong>
-                    </div>
-                    <div class="module-chip chip-b2b"><span class="chip-icon">01</span><span><small>SELL TO TEAMS</small><strong>B2B workflows</strong></span><i aria-hidden="true">↗</i></div>
-                    <div class="module-chip chip-shop"><span class="chip-icon chip-lime">02</span><span><small>HELP SHOPPERS</small><strong>Cart · Search · Alerts</strong></span><i aria-hidden="true">↗</i></div>
-                    <div class="module-chip chip-ops"><span class="chip-icon chip-lime">03</span><span><small>RUN THE STORE</small><strong>Reports · Controls</strong></span><i aria-hidden="true">↗</i></div>
-                    <div class="visual-caption"><span>Small tools. A more capable store.</span><span class="caption-rule"></span></div>
-                </div>
-            </div>
-            <div class="hero-bottom shell">
-                <span>BUILT FOR MAGENTO OPEN SOURCE</span>
-                <div class="hero-specs"><span>Composer packages</span><span>PHP 8.3–8.4</span><span>GPL-3.0-or-later</span></div>
-            </div>
-        </section>
-
-        <section class="catalog section shell" id="extensions" aria-labelledby="catalog-title">
-            <div class="section-heading">
-                <div>
-                    <p class="eyebrow eyebrow-dark">THE EXTENSION LIBRARY</p>
-                    <h2 id="catalog-title">Find your next<br><em>useful addition.</em></h2>
-                </div>
-                <p class="section-intro">Every module solves a specific store problem. Explore by area, then head to the source or install details.</p>
-            </div>
-
-            <div class="catalog-controls">
-                <div class="filter-list" role="group" aria-label="Filter extensions by category">
-                    <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>16</span></button>
-                    <button class="filter-button" type="button" data-filter="b2b" aria-pressed="false">B2B &amp; merchandising <span>7</span></button>
-                    <button class="filter-button" type="button" data-filter="storefront" aria-pressed="false">Customer experience <span>4</span></button>
-                    <button class="filter-button" type="button" data-filter="operations" aria-pressed="false">Store operations <span>5</span></button>
-                </div>
-                <label class="search-box">
-                    <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
-                    <span class="visually-hidden">Search extensions</span>
-                    <input id="extension-search" type="search" placeholder="Search extensions" autocomplete="off">
-                    <kbd>/</kbd>
-                </label>
-            </div>
-
-            <div class="catalog-meta"><span id="result-count" aria-live="polite">Showing 16 extensions</span><span>Separate packages · Browse the code before you install</span></div>
-
-            <div class="extension-grid" id="extension-grid">
-                <article class="extension-card" data-category="b2b" data-search="b2b company accounts roles branches company pricing payment rules store credit">
-                    <div class="card-top"><span class="card-index">01</span><span class="card-category">B2B &amp; MERCHANDISING</span></div>
-                    <h3>B2B Company Accounts</h3>
-                    <p>Bring company buyers, roles, branches, shared credit, and company pricing to Magento Open Source.</p>
-                    <div class="card-footer"><code>module-b2b</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-b2b" target="_blank" rel="noreferrer" aria-label="B2B Company Accounts on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-b2b" target="_blank" rel="noreferrer" aria-label="B2B Company Accounts on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="b2b" data-search="order approval buyer manager approve cart checkout threshold">
-                    <div class="card-top"><span class="card-index">02</span><span class="card-category">B2B &amp; MERCHANDISING</span></div>
-                    <h3>B2B Order Approval</h3>
-                    <p>Let company administrators review and approve a buyer’s cart before checkout.</p>
-                    <div class="card-footer"><code>module-b2b-order-approval</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-b2b-order-approval" target="_blank" rel="noreferrer" aria-label="B2B Order Approval on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-b2b-order-approval" target="_blank" rel="noreferrer" aria-label="B2B Order Approval on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="b2b" data-search="quick order sku csv bulk ordering business buyers">
-                    <div class="card-top"><span class="card-index">03</span><span class="card-category">B2B &amp; MERCHANDISING</span></div>
-                    <h3>B2B Quick Order</h3>
-                    <p>Build a cart from SKUs typed in or uploaded as a CSV, with line-by-line feedback.</p>
-                    <div class="card-footer"><code>module-b2b-quick-order</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-b2b-quick-order" target="_blank" rel="noreferrer" aria-label="B2B Quick Order on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-b2b-quick-order" target="_blank" rel="noreferrer" aria-label="B2B Quick Order on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="b2b" data-search="quotes price negotiation negotiated buyer seller offers">
-                    <div class="card-top"><span class="card-index">04</span><span class="card-category">B2B &amp; MERCHANDISING</span></div>
-                    <h3>B2B Quotes</h3>
-                    <p>Exchange line-item offers with business buyers and let them check out at agreed prices.</p>
-                    <div class="card-footer"><code>module-b2b-quotes</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-b2b-quotes" target="_blank" rel="noreferrer" aria-label="B2B Quotes on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-b2b-quotes" target="_blank" rel="noreferrer" aria-label="B2B Quotes on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="b2b" data-search="requisition list saved shared repeat order sku quantities">
-                    <div class="card-top"><span class="card-index">05</span><span class="card-category">B2B &amp; MERCHANDISING</span></div>
-                    <h3>B2B Requisition Lists</h3>
-                    <p>Save shared SKU lists so company buyers can reorder familiar products together.</p>
-                    <div class="card-footer"><code>module-b2b-requisition-lists</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-b2b-requisition-lists" target="_blank" rel="noreferrer" aria-label="B2B Requisition Lists on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-b2b-requisition-lists" target="_blank" rel="noreferrer" aria-label="B2B Requisition Lists on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="b2b" data-search="free gift promotion cart price rule automatic gift">
-                    <div class="card-top"><span class="card-index">06</span><span class="card-category">B2B &amp; MERCHANDISING</span></div>
-                    <h3>Free Gift with Purchase</h3>
-                    <p>Add a simple or virtual gift automatically when a cart price rule matches.</p>
-                    <div class="card-footer"><code>module-free-gift</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-freegift" target="_blank" rel="noreferrer" aria-label="Free Gift with Purchase on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-free-gift" target="_blank" rel="noreferrer" aria-label="Free Gift with Purchase on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="b2b" data-search="product labels badges catalog rules category search results">
-                    <div class="card-top"><span class="card-index">07</span><span class="card-category">B2B &amp; MERCHANDISING</span></div>
-                    <h3>Product Labels</h3>
-                    <p>Show rule-based badges on product cards and product pages across your store.</p>
-                    <div class="card-footer"><code>module-product-labels</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-product-labels" target="_blank" rel="noreferrer" aria-label="Product Labels on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-product-labels" target="_blank" rel="noreferrer" aria-label="Product Labels on Packagist">Packagist</a></div></div>
-                </article>
-
-                <article class="extension-card" data-category="storefront" data-search="abandoned cart reminders coupon return recovery email">
-                    <div class="card-top"><span class="card-index">08</span><span class="card-category">CUSTOMER EXPERIENCE</span></div>
-                    <h3>Abandoned Cart Reminders</h3>
-                    <p>Send timed cart emails with a return link, optional coupon, and recovery tracking.</p>
-                    <div class="card-footer"><code>module-abandoned-cart</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-abandoned-cart" target="_blank" rel="noreferrer" aria-label="Abandoned Cart Reminders on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-abandoned-cart" target="_blank" rel="noreferrer" aria-label="Abandoned Cart Reminders on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="storefront" data-search="review reminder verified buyer shipment email">
-                    <div class="card-top"><span class="card-index">09</span><span class="card-category">CUSTOMER EXPERIENCE</span></div>
-                    <h3>Review Reminder</h3>
-                    <p>Invite customers to review shipped products and mark eligible reviews as Verified Buyer.</p>
-                    <div class="card-footer"><code>module-review-reminder</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-review-reminder" target="_blank" rel="noreferrer" aria-label="Review Reminder on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-review-reminder" target="_blank" rel="noreferrer" aria-label="Review Reminder on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="storefront" data-search="smarter search autocomplete typo products categories promoted stop words">
-                    <div class="card-top"><span class="card-index">10</span><span class="card-category">CUSTOMER EXPERIENCE</span></div>
-                    <h3>Smarter Search</h3>
-                    <p>Add product and category suggestions, promoted products, and typo-tolerant fallback.</p>
-                    <div class="card-footer"><code>module-search</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-search" target="_blank" rel="noreferrer" aria-label="Smarter Search on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-search" target="_blank" rel="noreferrer" aria-label="Smarter Search on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="storefront" data-search="stock notification out of stock back in stock price drop guest alerts">
-                    <div class="card-top"><span class="card-index">11</span><span class="card-category">CUSTOMER EXPERIENCE</span></div>
-                    <h3>Stock &amp; Price Alerts</h3>
-                    <p>Let shoppers subscribe to back-in-stock and price-drop emails, including guest sign-ups.</p>
-                    <div class="card-footer"><code>module-stock-notification</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-stock-notification" target="_blank" rel="noreferrer" aria-label="Stock and Price Alerts on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-stock-notification" target="_blank" rel="noreferrer" aria-label="Stock and Price Alerts on Packagist">Packagist</a></div></div>
-                </article>
-
-                <article class="extension-card" data-category="operations" data-search="action log admin activity restore login sessions audit">
-                    <div class="card-top"><span class="card-index">12</span><span class="card-category">STORE OPERATIONS</span></div>
-                    <h3>Admin Action Log</h3>
-                    <p>Track admin changes and sign-ins, manage active sessions, and restore supported data.</p>
-                    <div class="card-footer"><code>module-action-log</code><div class="card-links"><a href="https://github.com/tonyappsorg/module-action-log" target="_blank" rel="noreferrer" aria-label="Admin Action Log on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-action-log" target="_blank" rel="noreferrer" aria-label="Admin Action Log on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="operations" data-search="advanced reports live sales revenue refunds csv export scheduled">
-                    <div class="card-top"><span class="card-index">13</span><span class="card-category">STORE OPERATIONS</span></div>
-                    <h3>Advanced Reports</h3>
-                    <p>See live sales and payment reports, compare periods, and export or schedule order CSVs.</p>
-                    <div class="card-footer"><code>module-advanced-reports</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-advanced-reports" target="_blank" rel="noreferrer" aria-label="Advanced Reports on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-advanced-reports" target="_blank" rel="noreferrer" aria-label="Advanced Reports on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="operations" data-search="email designer drag drop transactional templates visual editor">
-                    <div class="card-top"><span class="card-index">14</span><span class="card-category">STORE OPERATIONS</span></div>
-                    <h3>Visual Email Designer</h3>
-                    <p>Design responsive transactional emails with a drag-and-drop editor in Magento admin.</p>
-                    <div class="card-footer"><code>module-email-designer</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-email-designer" target="_blank" rel="noreferrer" aria-label="Visual Email Designer on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-email-designer" target="_blank" rel="noreferrer" aria-label="Visual Email Designer on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="operations" data-search="new browser login device sign-in admin security alert email">
-                    <div class="card-top"><span class="card-index">15</span><span class="card-category">STORE OPERATIONS</span></div>
-                    <h3>New Device Sign-in Alerts</h3>
-                    <p>Email an admin when their account signs in from an unfamiliar device.</p>
-                    <div class="card-footer"><code>module-notify-on-new-browser-login</code><div class="card-links"><a href="https://github.com/tonyappsorg/notify-when-login-from-new-browser" target="_blank" rel="noreferrer" aria-label="New Device Sign-in Alerts on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-notify-on-new-browser-login" target="_blank" rel="noreferrer" aria-label="New Device Sign-in Alerts on Packagist">Packagist</a></div></div>
-                </article>
-                <article class="extension-card" data-category="operations" data-search="shipping rules hide methods quote contact condition cart">
-                    <div class="card-top"><span class="card-index">16</span><span class="card-category">STORE OPERATIONS</span></div>
-                    <h3>Shipping Rules</h3>
-                    <p>Hide shipping methods or offer a contact-for-quote option when cart conditions match.</p>
-                    <div class="card-footer"><code>module-shippingrules</code><div class="card-links"><a href="https://github.com/tonyappsorg/magento2-shipping-rules" target="_blank" rel="noreferrer" aria-label="Shipping Rules on GitHub">GitHub <span aria-hidden="true">↗</span></a><a href="https://packagist.org/packages/tonyapps/module-shippingrules" target="_blank" rel="noreferrer" aria-label="Shipping Rules on Packagist">Packagist</a></div></div>
-                </article>
-            </div>
-            <p class="empty-state" id="empty-state" hidden>No extensions match that search. Try another word or category.</p>
-        </section>
-
-        <section class="approach" id="approach" aria-labelledby="approach-title">
-            <div class="shell approach-inner">
-                <div class="approach-heading">
-                    <p class="eyebrow eyebrow-light">OPEN BY DEFAULT</p>
-                    <h2 id="approach-title">Tools you can<br><em>make your own.</em></h2>
-                    <p>Useful software should be understandable, installable, and yours to keep. Tonyapps modules are published as separate Composer packages with their source on GitHub.</p>
-                    <a class="text-link text-link-light" href="https://github.com/tonyappsorg" target="_blank" rel="noreferrer">Explore all repositories <span aria-hidden="true">↗</span></a>
-                </div>
-                <div class="principles">
-                    <article class="principle">
-                        <span class="principle-number">01</span>
-                        <div><h3>Free to use</h3><p>All 16 extensions are released under GPL-3.0-or-later. No paid tiers or feature gates.</p></div>
-                        <span class="principle-mark" aria-hidden="true">↗</span>
-                    </article>
-                    <article class="principle">
-                        <span class="principle-number">02</span>
-                        <div><h3>One job at a time</h3><p>Each package targets a clear workflow and can be evaluated on its own requirements.</p></div>
-                        <span class="principle-mark" aria-hidden="true">↗</span>
-                    </article>
-                    <article class="principle">
-                        <span class="principle-number">03</span>
-                        <div><h3>Source in the open</h3><p>Read the code, follow changes, and report issues in the public GitHub repositories.</p></div>
-                        <span class="principle-mark" aria-hidden="true">↗</span>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section class="getting-started section shell" id="get-started" aria-labelledby="start-title">
-            <div class="start-copy">
-                <p class="eyebrow eyebrow-dark">GET STARTED</p>
-                <h2 id="start-title">Start with one.<br><em>Build from there.</em></h2>
-                <p>Pick a package, check its requirements and installation notes, then add it to your Magento project with Composer.</p>
-                <a class="button button-dark" href="https://packagist.org/?query=tonyapps" target="_blank" rel="noreferrer">Find Tonyapps on Packagist <span aria-hidden="true">↗</span></a>
-            </div>
-            <div class="install-card">
-                <div class="install-top"><span>FROM YOUR MAGENTO PROJECT</span><span class="terminal-dots" aria-hidden="true"><i></i><i></i><i></i></span></div>
-                <div class="install-command"><span class="prompt">$</span><code>composer require tonyapps/<b>module-name</b></code></div>
-                <div class="install-command"><span class="prompt">$</span><code>bin/magento setup:upgrade</code></div>
-                <p>Replace <code>module-name</code> with the package name. Check its README for requirements, setup, and configuration.</p>
-                <a href="https://packagist.org/?query=tonyapps" target="_blank" rel="noreferrer">Browse packages on Packagist <span aria-hidden="true">↗</span></a>
-            </div>
-        </section>
+        <ul class="modules" aria-label="Tonyapps Magento modules">
+            <li><span class="module-name">B2B Company Accounts</span><code>tonyapps/module-b2b</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-b2b">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-b2b">Packagist</a></span></li>
+            <li><span class="module-name">B2B Order Approval</span><code>tonyapps/module-b2b-order-approval</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-b2b-order-approval">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-b2b-order-approval">Packagist</a></span></li>
+            <li><span class="module-name">B2B Quick Order</span><code>tonyapps/module-b2b-quick-order</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-b2b-quick-order">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-b2b-quick-order">Packagist</a></span></li>
+            <li><span class="module-name">B2B Quotes</span><code>tonyapps/module-b2b-quotes</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-b2b-quotes">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-b2b-quotes">Packagist</a></span></li>
+            <li><span class="module-name">B2B Requisition Lists</span><code>tonyapps/module-b2b-requisition-lists</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-b2b-requisition-lists">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-b2b-requisition-lists">Packagist</a></span></li>
+            <li><span class="module-name">Free Gift with Purchase</span><code>tonyapps/module-free-gift</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-freegift">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-free-gift">Packagist</a></span></li>
+            <li><span class="module-name">Product Labels</span><code>tonyapps/module-product-labels</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-product-labels">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-product-labels">Packagist</a></span></li>
+            <li><span class="module-name">Abandoned Cart Reminders</span><code>tonyapps/module-abandoned-cart</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-abandoned-cart">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-abandoned-cart">Packagist</a></span></li>
+            <li><span class="module-name">Review Reminder</span><code>tonyapps/module-review-reminder</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-review-reminder">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-review-reminder">Packagist</a></span></li>
+            <li><span class="module-name">Smarter Search</span><code>tonyapps/module-search</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-search">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-search">Packagist</a></span></li>
+            <li><span class="module-name">Stock &amp; Price Alerts</span><code>tonyapps/module-stock-notification</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-stock-notification">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-stock-notification">Packagist</a></span></li>
+            <li><span class="module-name">Admin Action Log</span><code>tonyapps/module-action-log</code><span class="links"><a href="https://github.com/tonyappsorg/module-action-log">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-action-log">Packagist</a></span></li>
+            <li><span class="module-name">Advanced Reports</span><code>tonyapps/module-advanced-reports</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-advanced-reports">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-advanced-reports">Packagist</a></span></li>
+            <li><span class="module-name">Visual Email Designer</span><code>tonyapps/module-email-designer</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-email-designer">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-email-designer">Packagist</a></span></li>
+            <li><span class="module-name">New Device Sign-in Alerts</span><code>tonyapps/module-notify-on-new-browser-login</code><span class="links"><a href="https://github.com/tonyappsorg/notify-when-login-from-new-browser">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-notify-on-new-browser-login">Packagist</a></span></li>
+            <li><span class="module-name">Shipping Rules</span><code>tonyapps/module-shippingrules</code><span class="links"><a href="https://github.com/tonyappsorg/magento2-shipping-rules">GitHub</a><a href="https://packagist.org/packages/tonyapps/module-shippingrules">Packagist</a></span></li>
+        </ul>
     </main>
-
-    <footer class="site-footer">
-        <div class="footer-main shell">
-            <div class="footer-brand">
-                <a class="brand brand-footer" href="#top" aria-label="Tonyapps home"><span class="brand-mark" aria-hidden="true">t</span><span class="brand-name">tonyapps<span class="brand-period">.</span></span></a>
-                <p>Small, practical extensions for Magento Open Source.</p>
-            </div>
-            <div class="footer-links">
-                <div><span>EXPLORE</span><a href="#extensions">All extensions</a><a href="#approach">Our approach</a></div>
-                <div><span>FOLLOW THE WORK</span><a href="https://github.com/tonyappsorg" target="_blank" rel="noreferrer">GitHub <b aria-hidden="true">↗</b></a><a href="https://packagist.org/?query=tonyapps" target="_blank" rel="noreferrer">Packagist <b aria-hidden="true">↗</b></a></div>
-            </div>
-        </div>
-        <div class="footer-bottom shell"><span>© <span id="year">2026</span> Tonyapps</span><span>Free and open source under GPL-3.0-or-later</span><a href="https://opensource.org/license/gpl-3-0" target="_blank" rel="noreferrer">License <span aria-hidden="true">↗</span></a></div>
-    </footer>
 </body>
 </html>
