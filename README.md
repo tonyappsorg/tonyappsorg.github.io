@@ -2,6 +2,8 @@
 
 Static GitHub Pages directory of Tonyapps Magento modules.
 
+Published at [tonyappsorg.github.io](https://tonyappsorg.github.io/), with product pages for [Email Designer](https://tonyappsorg.github.io/email-designer/) and [B2B](https://tonyappsorg.github.io/b2b/).
+
 ## Structure
 
 - `index.html` contains the module list, featured product links, and links to GitHub and Packagist.
